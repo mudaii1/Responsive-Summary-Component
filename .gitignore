@@ -15,6 +15,11 @@
 .DS_Store
 .prettierignore
 
-# ignore Sass files
+# ignore Sass files and parcel files
 sass
 CSS/*.map
+.parcel-cache
+dist
+node_modules
+package.json
+package-lock.json
